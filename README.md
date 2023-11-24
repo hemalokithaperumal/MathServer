@@ -126,12 +126,12 @@ urlpatterns = [
     path('areaofsquareprism/',views.rectarea,name="areaofsquareprism"),
     path('',views.rectarea,name="areaofsquareprismroot")
 ]
+
 ```
 
 ## SERVER SIDE PROCESSING:
 ![Alt text](<Screenshot (32).png>)
 ## HOMEPAGE:
 ![Alt text](output.png)
-
 ## RESULT:
 The program for performing server side processing is completed successfully.
