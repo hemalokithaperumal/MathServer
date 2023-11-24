@@ -1,12 +1,12 @@
 # Ex.05 Design a Website for Server Side Processing
-## Date:22.11.2023
+## Date:24.11.2023
 
 ## AIM:
 To design a website to find total surface area of a square prism in server side.
 
 ## FORMULA:
-Total Surface Area = 2b<sup>2</sup> + 4bh
-<br>b --> Base of Square Prism
+Total Surface Area = 2a<sup>2</sup> + 4ah
+<br>a --> Base of Square Prism
 <br>h --> Height of Square Prism
 
 ## DESIGN STEPS:
