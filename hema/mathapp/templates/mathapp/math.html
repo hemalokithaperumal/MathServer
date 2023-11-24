@@ -7,7 +7,7 @@
 <style type="text/css">
 body 
 {
-background-color:red;
+background-color:purple;
 }
 .edge {
 width: 1440px;
@@ -22,7 +22,7 @@ border: Thick dashed lime;
 width: 500px;
 min-height: 300px;
 font-size: 20px;
-background-color:blue;
+background-color:yellow;
 }
 .formelt{
 color:orange;
@@ -41,14 +41,14 @@ padding-top: 20px;
 <body>
 <div class="edge">
 <div class="box">
-<h1>Area of a Rectangle</h1>
+<h1>Total surface of square prism</h1>
 <form method="POST">
 {% csrf_token %}
 <div class="formelt">
-Length : <input type="text" name="length" value="{{l}}"></input>(in m)<br/>
+Base : <input type="text" name="base" value="{{a}}"></input>(in m)<br/>
 </div>
 <div class="formelt">
-Breadth : <input type="text" name="breadth" value="{{b}}"></input>(in m)<br/>
+Height : <input type="text" name="height" value="{{h}}"></input>(in m)<br/>
 </div>
 <div class="formelt">
 <input type="submit" value="Calculate"></input><br/>
